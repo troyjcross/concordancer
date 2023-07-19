@@ -15,7 +15,9 @@ ccc(x, y)
 A numeric scalar representing the CCC between \code{x} and \code{y}.
 }
 \description{
-An Rcpp implementation of Lin's Concordance Correlation Coefficient (CCC)
+This \code{ccc()} function leverages the speed of C++ to implement Lin's Concordance Correlation Coefficient (CCC) via \link{Rcpp}. This
+implementation is faster than other varieties of CCC calculation from other packages, i.e.,
+\code{\link[DescTools:CCC]{DescTools::CCC()}} and \code{\link[epiR:epi.ccc]{epiR::epi.ccc()}}. See
 }
 \examples{
 # Create x and y vectors
