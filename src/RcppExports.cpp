@@ -10,19 +10,21 @@ Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
 Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 #endif
 
-// rcpp_hello_world
-List rcpp_hello_world();
-RcppExport SEXP _concordancer_rcpp_hello_world() {
+// rcpp_ccc
+double rcpp_ccc(NumericVector x, NumericVector y);
+RcppExport SEXP _concordancer_rcpp_ccc(SEXP xSEXP, SEXP ySEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    rcpp_result_gen = Rcpp::wrap(rcpp_hello_world());
+    Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
+    Rcpp::traits::input_parameter< NumericVector >::type y(ySEXP);
+    rcpp_result_gen = Rcpp::wrap(rcpp_ccc(x, y));
     return rcpp_result_gen;
 END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_concordancer_rcpp_hello_world", (DL_FUNC) &_concordancer_rcpp_hello_world, 0},
+    {"_concordancer_rcpp_ccc", (DL_FUNC) &_concordancer_rcpp_ccc, 2},
     {NULL, NULL, 0}
 };
 
