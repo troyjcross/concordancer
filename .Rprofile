@@ -1,3 +1,8 @@
-library(usethis)
-library(devtools)
-library(Rcpp)
+if(interactive()){
+  library(usethis)
+  library(devtools)
+  library(Rcpp)
+}
+
+
+
