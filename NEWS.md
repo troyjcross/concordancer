@@ -1,4 +1,7 @@
-# concordancer 1.1.0
+# concordancer 1.0.1
+
+* Responded to CRAN submission comments
+* Resubmitted to CRAN
 
 # concordancer 1.0.0
 
