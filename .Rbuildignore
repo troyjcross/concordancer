@@ -2,3 +2,5 @@
 ^\.Rproj\.user$
 ^concordancer\.Rproj$
 ^LICENSE\.md$
+^cran-comments\.md$
+^\.github$
