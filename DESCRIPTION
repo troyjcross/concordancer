@@ -1,17 +1,22 @@
 Package: concordancer
-Title: An Rcpp Implementation of Lin's Concordance Correlation Coefficient (CCC)
+Title: An Rcpp Implementation of Lin's Concordance Correlation Coefficient
+    (CCC)
 Version: 1.0.0
 Authors@R: 
     person("Troy J", "Cross", , "troy.cross@sydney.edu.au", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0003-2902-7787"))
-Description: An 'Rcpp' implementation to calculate Lin's Concordance Correlation Coefficient (CCC). 
+Description: An 'Rcpp' implementation to calculate Lin's Concordance
+    Correlation Coefficient (CCC).
 License: GPL (>= 3)
+URL: https://github.com/troyjcross/concordancer
+BugReports: https://github.com/troyjcross/concordancer/issues
+Imports: 
+    Rcpp
+LinkingTo: 
+    Rcpp
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-LinkingTo: 
-    Rcpp
-Imports: 
-    Rcpp
-URL: https://github.com/troyjcross/concordancer
-BugReports: https://github.com/troyjcross/concordancer/issues
+Suggests: 
+    spelling
+Language: en-US

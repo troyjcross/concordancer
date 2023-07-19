@@ -11,7 +11,7 @@
 #' @return A numeric scalar representing the CCC between `x` and `y`.
 #'
 #' @details
-#' For more details on the calculation of the CCC, see: [https://en.wikipedia.org/wiki/Concordance_correlation_coefficient]
+#' For more details on the calculation of the CCC, see: [https://en.wikipedia.org/wiki/Concordance_correlation_coefficient](https://en.wikipedia.org/wiki/Concordance_correlation_coefficient)
 #' @export
 #'
 #' @examples

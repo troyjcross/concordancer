@@ -20,7 +20,7 @@ implementation is faster than other varieties of CCC calculation from other pack
 \code{\link[DescTools:CCC]{DescTools::CCC()}} and \code{\link[epiR:epi.ccc]{epiR::epi.ccc()}}.
 }
 \details{
-For more details on the calculation of the CCC, see: \link{https://en.wikipedia.org/wiki/Concordance_correlation_coefficient}
+For more details on the calculation of the CCC, see: \url{https://en.wikipedia.org/wiki/Concordance_correlation_coefficient}
 }
 \examples{
 # Create x and y vectors

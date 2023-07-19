@@ -9,7 +9,7 @@ The goal of concordancer is to provide an Rcpp implementation of Lin's Concordan
 
 ## Installation
 
-Install the latest releae from CRAN:
+Install the latest release from CRAN:
 
 ``` r
 install.packages("concordancer")
