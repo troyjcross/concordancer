@@ -3,9 +3,10 @@
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/troyjcross/concordancer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/troyjcross/concordancer/actions/workflows/R-CMD-check.yaml)
-`r badge_devel(color = "orange")`
-
+[![](https://www.r-pkg.org/badges/version/concordancer)](https://cran.r-project.org/package=concordancer)
+[![](http://cranlogs.r-pkg.org/badges/grand-total/concordancer)](https://cran.r-project.org/package=concordancer)
 <!-- badges: end -->
+
 
 The goal of concordancer is to provide an Rcpp implementation of Lin's Concordance Correlation Coefficient (CCC).
 
