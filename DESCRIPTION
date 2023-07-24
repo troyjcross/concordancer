@@ -1,6 +1,6 @@
 Package: concordancer
 Title: An 'Rcpp' Implementation of Lin's Concordance Correlation Coefficient (CCC)
-Version: 1.0.2
+Version: 1.0.2.9000
 Authors@R: 
     person("Troy J", "Cross", , "troy.cross@sydney.edu.au", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0003-2902-7787"))
